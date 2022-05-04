@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+#procedure {
+    padding: 80px, 0;
+    width: 80%;
+    display: flex;
+    height: 80vh;
+}
+
+#procedure .container {
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    margin: 0, auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 80, 0;
+}
+
+#procedure .procedure-left {
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 80px;
+    width: 524px;
+    height: 340px;
+}
+
+#procedure .procedure-right {
+    width: 40%;
+    margin-left: 15%;
+    width: 432px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+#procedure .procedure-left .heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 65px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    width: 524px;
+    height: 200px;
+    right: 1195px;
+    top: 2044px;
+}
+.procedure-left .sub-heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color:#1E1B1B;
+    opacity: 60%;
+    width: 437px;
+    height: 56px;
+    right: 1282px;
+    top: 2288px;
+}
+
+.procedure-right .step-1, .step-2, .step-3 {
+    display: flex;
+}
+
+.procedure-right .step-1 .step-1-image {
+    width: 12%;
+    text-align: center;
+}
+
+.step-1-image img {
+    width: 100%;
+}
+
+.procedure-right .step-1 .step-1-image .Line-box img {
+    width: 2px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+.procedure-right .step-2 .step-2-image {
+    width: 12%;
+    text-align: center;
+}
+
+.step-2-image img {
+    width: 100%;
+}
+
+.procedure-right .step-3 .step-3-image {
+    width: 12%;
+    text-align: center;   
+}
+
+.step-3-image img {
+    width: 100%;
+}
+
+.procedure-right .step-2 .step-2-image .Line-box img {
+    width: 2px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+
+.procedure-right .step-1 .step-1-heading {
+    display: block;
+}
+
+.procedure-right .step-2 .step-2-heading {
+    display: block;
+}
+
+.procedure-right .step-3 .step-3-heading {
+    display: block;
+}
+.step-1 {
+    width: 432px;
+    height: 120px;
+    left: 975px;
+    top: 1952px;
+}
+
+.step-1-title {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 12px;
+    margin-left: 15px;
+}
+.step-2 {
+    width: 432px;
+    height: 120px;
+    left: 975px;
+    top: 2133px;
+}
+
+.step-2-title {
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 12px;
+    margin-left: 15px;
+}
+
+.step-3 {
+    width: 432px;
+    height: 120px;
+    left: 975px;
+    top: 2133px;
+}
+
+.step-3-title {
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 12px;
+    margin-left: 15px;
+}
+
+.step-1-body {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1B1B;
+    width: 236px;
+    opacity: 0.6;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.step-2-body {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1B1B;
+    width: 236px;
+    opacity: 0.6;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.step-3-body {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1B1B;
+    width: 236px;
+    opacity: 0.6;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+#services-section .container {
+    
+    display: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ #services-section {
+    padding: 80px, 0;
+    background: #E2E6E9;
+    min-height: 100vh;
+}
+
+#services-section .container  h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+#services-section .container h2 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+#services-section .services .service-box  {
+    background: white;
+    height: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 24%;
+    margin-bottom: 12px;
+}
+
+#services-section .services {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 15px;
+} 
+
+#services-section .services .service-box:hover {
+    background: #ff6433;
+    color: white;
+    cursor: pointer;
+}
+
+.learn-arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learn-arrow a {
+    display: flex;
+    color: #1E1B1B;
+    text-decoration: none;
+}
+
+.learn-arrow a p {
+    margin-right: 10px;
+}
+
+#tools-section {
+    min-height: 80vh;
+    background: #E2E6E9;
+}
+
+#tools-section .car-section {
+    width: 20%;
+    height: 50vh;
+    background: url(../img/car.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#tools-section .orange-section {
+    width: 40%;
+    background: #ff6433;
+    height: 50vh;
+}
+
+#tools-section .orange-section h4 {
+    text-align: justify;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 50px;
+    letter-spacing: -0.03em;
+    line-height: 55px;
+}
+
+#tools-section .auto-section {
+    width: 40%;
+    height: 50vh;
+    background: url(../img/auto.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#tools-section .orange-section #button {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.ratings {
+    margin-top: 5%;
+}
+
+
+.rates {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.rating-amount {
+    font-size: 48px;
+    color: #661CE7;
+    font-weight: bold;
+}
+
+.ratings p {
+    color: #1E1B1B;
+    opacity: 0.7;
+}
+
+#brand {
+    min-height: 80vh;
+    padding-bottom: 40px;
+}
+
+.brands h2 {
+    font-size: 44px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.brand-section {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    opacity: 0.7;
+    
+}
+
+
