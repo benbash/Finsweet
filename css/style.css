@@ -992,6 +992,7 @@
         width: 100%;
     }
 
+
     #procedure-section .procedure-right .step-1-heading h2 {
         padding-top: 0;
     }
@@ -1092,10 +1093,8 @@
      }
 
      #faq-section .faq-1 .question-answer h5 {
-         width: 80%;
-         padding-right: 0px;
-         font-size: 15px;
-     }
+        font-size: 15px;
+    }
 
      #footer-section .container-4 .footer-box {
          flex-direction: column;
@@ -1384,8 +1383,9 @@
         font-size: 38px;
     }
 
-    #faq-section .faq-1 .question-answer p {
-        width: 500px;
+    #faq-section .faq-1 .question-answer h5 {
+        width: 90%;
+        font-size: 15px;
     }
 
     #faq-section .faq-2 {
